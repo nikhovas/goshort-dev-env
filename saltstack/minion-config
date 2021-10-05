@@ -6,3 +6,4 @@ fileserver_backend:
 gitfs_remotes:
   - https://github.com/saltstack-formulas/postgres-formula
   - https://github.com/saltstack-formulas/redis-formula
+  - https://github.com/saltstack-formulas/golang-formula

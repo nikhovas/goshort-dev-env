@@ -22,6 +22,4 @@ Vagrant.configure("2") do |config|
     salt.verbose = true
     salt.bootstrap_options = "-F -P -c /tmp"
   end
-
-  config.vm.provision :shell, :inline => "git clone https://github.com/nikhovas/goshort"
 end
